@@ -1,0 +1,49 @@
+body {
+	background: hsl(212, 45%, 89%);
+	font-family: 'Outfit', sans-serif;
+}
+
+.card {
+	width: 85vw;
+	max-height: 100vh;
+	margin: 0 auto;
+	margin-top: 5rem;
+	background: hsl(0, 0%, 100%);
+	display: grid;
+	place-items: center;
+	border-radius: 5%;
+	max-width: 375px;
+}
+
+.qr-img {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 0.7rem;
+	margin-right: 0;
+	border-radius: 5%;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.content h3 {
+	font-size: 1.7rem;
+}
+
+.content p {
+	font-size: 1.2rem;
+}
+
+/* front end mentor attribution  */
+.attribution {
+	margin-top: 1rem;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
